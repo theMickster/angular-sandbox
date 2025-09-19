@@ -2,8 +2,8 @@
 CREATED BY:   Mick Letofsky
 CREATION:     SASS & CSS Color Customizations
 ***************************************************************************/
-@import '~bootstrap/scss/functions';
-@import '~bootstrap/scss/variables';
+@import 'bootstrap/scss/functions';
+@import 'bootstrap/scss/variables';
 
 $white: #fff !default;
 $black: #000015 !default;
@@ -152,5 +152,5 @@ $body-bg: #edeef0 !default;
 $border-width: 1px !default;
 $border-color: $gray-200 !default;
 
-@import '~bootstrap/scss/mixins';
-@import '~bootstrap/scss/utilities';
+@import 'bootstrap/scss/mixins';
+@import 'bootstrap/scss/utilities';

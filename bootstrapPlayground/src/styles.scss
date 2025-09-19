@@ -4,9 +4,9 @@
 @import './styles/_custom-colors';
 @import './styles/_custom-gradients';
 
-@import '~bootstrap/dist/css/bootstrap.min.css';
-@import '~bootstrap/scss/bootstrap.scss';
-@import '~@fortawesome/fontawesome-free/css/all.min.css';
+@import 'bootstrap/dist/css/bootstrap.min.css';
+@import 'bootstrap/scss/bootstrap.scss';
+@import '@fortawesome/fontawesome-free/css/all.min.css';
 
 body {
   margin: 0;
