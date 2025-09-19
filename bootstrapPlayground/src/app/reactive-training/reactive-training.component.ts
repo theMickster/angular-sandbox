@@ -20,9 +20,10 @@ import {
 } from '../logs';
 
 @Component({
-  selector: 'reactive-training',
-  templateUrl: './reactive-training.component.html',
-  styleUrls: ['./reactive-training.component.css'],
+    selector: 'reactive-training',
+    templateUrl: './reactive-training.component.html',
+    styleUrls: ['./reactive-training.component.css'],
+    standalone: false
 })
 export class ReactiveTrainingComponent implements OnInit {
   pageTitle = 'Day #1';

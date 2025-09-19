@@ -4,9 +4,10 @@ import { AuthorService } from '../../../data-access/author.service';
 import { Author } from '../../../data-structures/models/Author';
 
 @Component({
-  selector: 'author-list',
-  templateUrl: './author-list.component.html',
-  styleUrls: ['./author-list.component.css'],
+    selector: 'author-list',
+    templateUrl: './author-list.component.html',
+    styleUrls: ['./author-list.component.css'],
+    standalone: false
 })
 export class AuthorListComponent {
   pageTitle = 'Author List';

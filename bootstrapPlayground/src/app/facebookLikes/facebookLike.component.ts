@@ -2,8 +2,9 @@ import { Component, OnInit } from '@angular/core';
 import { PostLikes } from './postLikes';
 
 @Component({
-  selector: 'facebook-likes',
-  templateUrl: './facebookLike.component.html',
+    selector: 'facebook-likes',
+    templateUrl: './facebookLike.component.html',
+    standalone: false
 })
 export class FacebookLikeComponent implements OnInit {
   ngOnInit(): void {}
